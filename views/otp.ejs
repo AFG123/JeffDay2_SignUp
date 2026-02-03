@@ -1,0 +1,28 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Verify OTP</title>
+  <style>
+    .error {
+      color: red;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Enter OTP</h2>
+
+  <% if (error) { %>
+    <div class="error"><%= error %></div>
+  <% } %>
+
+  <form action="/athletes/verify-otp" method="POST">
+    <input type="hidden" name="athleteId" value="<%= athleteId %>" />
+
+    <input type="text" name="otp" placeholder="Enter OTP" required />
+    <br /><br />
+
+    <button type="submit">Verify</button>
+  </form>
+</body>
+</html> -->

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sports Registration</title>
+</head>
+<body>
+  <h2>Register</h2>
+
+  <form action="/athletes" method="POST">
+    <input type="text" name="name" placeholder="Name" required />
+    <br />
+
+    <input type="text" name="contact" placeholder="Contact" required />
+    <br />
+
+    <input type="number" name="age" placeholder="Age" required />
+    <br />
+
+    <input type="email" name="email" placeholder="Email" required />
+    <br />
+
+    <input type="password" name="password" placeholder="Password" required />
+    <br />
+
+    <label>Sports Interested:</label><br />
+    <input type="checkbox" name="sport" value="Cricket" /> Cricket<br />
+    <input type="checkbox" name="sport" value="Football" /> Football<br />
+    <input type="checkbox" name="sport" value="Badminton" /> Badminton<br />
+    <input type="checkbox" name="sport" value="Boxing" /> Boxing<br />
+
+    <br />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
